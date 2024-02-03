@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pipeline-metrics"
+version = "0.1.0"
+description = "Collect DevOps metrics in a Google Cloud Build pipeline."
+authors = ["skoenig"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+git_metrics = { git = "https://github.com/skoenig/git-metrics.git", rev = "1b75996" }
+google-cloud-build = "^3.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
