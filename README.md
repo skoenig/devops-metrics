@@ -15,7 +15,7 @@ _Hint: while following instructions are for GCP Cloud Build pipelines, the same 
 
 ## How it is working
 
-The module git-metrics is mainly for creating statistic reports from code repositories but it's methods can also be leveraged in CD pipelines to examine commit metadata from annotated tags.
+The module [git-metrics](https://github.com/Praqma/git-metrics/) is mainly for creating statistic reports from code repositories but it's methods can also be leveraged in CD pipelines to examine commit metadata from annotated tags. This is achieved by adding a repository checkout and an additional final step to your deployment pipeline which utilizes git-metrics. The additional overhead is a reasonable trade-off in order to collect the insightful metrics mentioned before.
 For lead time, it checks the commit's author date and simply calculates the time difference until time of deployment as measured by the CD pipeline.
 
 ## Usage
