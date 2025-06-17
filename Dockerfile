@@ -29,6 +29,6 @@ ENV VIRTUAL_ENV=/app/.venv
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 COPY --from=builder $VIRTUAL_ENV $VIRTUAL_ENV
 
-COPY pipeline-metrics.py entrypoint.sh /app
+COPY pipeline_metrics.py entrypoint.sh /app
 
 ENTRYPOINT /app/entrypoint.sh
