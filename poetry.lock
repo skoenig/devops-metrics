@@ -476,14 +476,13 @@ urllib3 = ["packaging", "urllib3"]
 
 [[package]]
 name = "google-cloud-build"
-version = "3.34.0"
+version = "3.35.0"
 description = "Google Cloud Build API client library"
 optional = false
 python-versions = ">=3.7"
 groups = ["main"]
 files = [
-    {file = "google_cloud_build-3.34.0-py3-none-any.whl", hash = "sha256:d453ae3ac7247137620f9b52f529f5b6903949151841562361458c39ddcd3818"},
-    {file = "google_cloud_build-3.34.0.tar.gz", hash = "sha256:5928f6aa5e9029780bc6e87b9c364f0a61a1c576f4df5260dfeb8cfc3d89d4d5"},
+    {file = "google_cloud_build-3.35.0-py3-none-any.whl", hash = "sha256:8253c236bdf5d7d4dd59d3fb1d475ddc8d334b142e84d7799a32287b399732bf"},
 ]
 
 [package.dependencies]
