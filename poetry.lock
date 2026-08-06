@@ -622,20 +622,20 @@ urllib3 = ["packaging (>=20.0)", "urllib3 (>=1.26.15,<3.0.0)"]
 
 [[package]]
 name = "google-cloud-build"
-version = "3.38.0"
+version = "3.38.1"
 description = "Google Cloud Build API client library"
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "google_cloud_build-3.38.0-py3-none-any.whl", hash = "sha256:c7c272d8ddbd8f39d5cf2a73d9e31f44088c9c297aabe8ada98ff944da2e0203"},
-    {file = "google_cloud_build-3.38.0.tar.gz", hash = "sha256:bea501bf0fe700511e25a177a842f39dadd98128554476a7c56bc40c0cc8b913"},
+    {file = "google_cloud_build-3.38.1-py3-none-any.whl", hash = "sha256:19873137495f7544d5a495b1b9a877dc59046b7e879da9dc36862bf41f919f28"},
+    {file = "google_cloud_build-3.38.1.tar.gz", hash = "sha256:88ddc96293e70d4eb28bfe593a90291142fef3fc5e23c134c233df299b3e1397"},
 ]
 
 [package.dependencies]
-google-api-core = {version = ">=2.24.2,<3.0.0", extras = ["grpc"]}
+google-api-core = {version = ">=2.25.0,<3.0.0", extras = ["grpc"]}
 google-auth = ">=2.14.1,<2.24.0 || >2.24.0,<2.25.0 || >2.25.0,<3.0.0"
-grpc-google-iam-v1 = ">=0.12.4,<1.0.0"
+grpc-google-iam-v1 = ">=0.14.2,<1.0.0"
 grpcio = [
     {version = ">=1.59.0,<2.0.0", markers = "python_version < \"3.14\""},
     {version = ">=1.75.1,<2.0.0", markers = "python_version >= \"3.14\""},
